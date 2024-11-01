@@ -1,76 +1,29 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add Rent Car</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: sans-serif;
-            background-color: #f4f4f4;
-        }
-
-        .header {
-            background-color: #007bff;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-
-        .header h1 {
-            margin: 0;
-        }
-
-        .header img {
-            width: 50px;
-            margin-right: 10px;
-        }
-
-        .content {
-            padding: 20px;
-        }
-
-        .content h2 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        .content p {
-            text-align: center;
-            font-size: 1.2em;
-        }
-
-        .content img {
-            display: block;
-            margin: 20px auto;
-            width: 100%;
-            max-width: 800px;
-        }
-
-        .buttons {
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .buttons button {
-            padding: 10px 20px;
-            margin: 0 10px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-    </style>
+    <link rel="stylesheet" href="{{ asset('css/beranda.css') }}">
 </head>
 <body>
-    <header class="header">
-        <h1><img src="https://i.ibb.co/K7x5q12/car-icon.png" alt="Car Icon">ADD RENT CAR</h1>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/car-logo.png" alt="Logo" class="logo-image">
+                <h1 class="brand-name">ADD RENT CAR</h1>
+            </div>
+            <div class="auth-buttons">
+                <button class="auth-button">Login</button>
+                <button class="auth-button">Register</button>
+            </div>
+        </div>
     </header>
-
-    <div class="content">
-        <h2>PESAN MOBIL HARI INI</h2>
-        <p>JAMIN
+    <main>
+        <div class="hero-section">
+            <h2 class="hero-title">PESAN MOBIL HARI INI</h2>
+            <p class="hero-subtitle">JAMINAN KUALITAS DAN HARGA MURAH<br>TIDAK PERCAYA? AYO BUKTIKAN</p>
+            <img src="images/cars-image.png" alt="Cars" class="cars-image">
+        </div>
+    </main>
+</body>
 </html>
