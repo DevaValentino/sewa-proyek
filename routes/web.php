@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\DaftarController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,12 +15,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/login', [App\Http\Controllers\LoginController::class,
-'index']);
+'login'])->name('login');
 Route::get('/beranda', [App\Http\Controllers\BerandaController::class,
 'index2']);
 Route::get('/pesan', [App\Http\Controllers\PesanController::class,
 'index']);
 Route::get('/daftar', [App\Http\Controllers\DaftarController::class,
-'index']);
+'daftar'])->name('daftar');
 Route::get('/paket', [App\Http\Controllers\paketController::class,
 'index']);

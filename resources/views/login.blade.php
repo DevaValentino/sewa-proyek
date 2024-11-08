@@ -35,7 +35,7 @@
                     </button>
                 </div>
 
-                <p class="signup-text">Belum punya akun? <a href="#">Mendaftar</a></p>
+                <p class="signup-text">Belum punya akun? <a href="{{ route('daftar') }}" class="auth-button">Mendaftar</a></p>
             </form>
         </div>
     </div>
