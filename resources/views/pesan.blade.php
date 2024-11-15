@@ -14,9 +14,9 @@
                 <span>ADD RENT CAR</span>
             </div>
             <nav>
-                <a href="#">SEWA MOBIL</a>
-                <a href="#">CARA PEMESANAN</a>
-                <a href="#">PAKET WISATA</a>
+                <a href="tampilan">SEWA MOBIL</a>
+                <a href="pesan">CARA PEMESANAN</a>
+                <a href="paket">PAKET WISATA</a>
             </nav>
             <div class="profile-icon">
                 <img src="images/profile-icon.png" alt="Profile">

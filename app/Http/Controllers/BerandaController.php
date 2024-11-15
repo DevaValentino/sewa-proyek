@@ -3,7 +3,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 class BerandaController extends Controller
 {
- public function index2()
+ public function beranda()
  {
  return view('beranda');
  }

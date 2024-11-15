@@ -13,7 +13,7 @@
                 <h1 class="brand-name">ADD RENT CAR</h1>
             </div>
             <div class="auth-buttons">
-                <button class="auth-button" onclick="window.location.href='{{ route('login') }}'">Login</button>
+                <button class="auth-button" onclick="window.location.href='{{ route('login') }}'">Login</button> 
                 <button class="auth-button" onclick="window.location.href='{{ route('daftar') }}'">Register</button>
             </div>
         </div>
