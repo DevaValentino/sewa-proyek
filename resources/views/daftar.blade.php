@@ -44,7 +44,8 @@
                 <label for="confirm-password">Konfirmasi Password</label>
                 <input type="password" id="confirm-password" placeholder="Masukkan konfirmasi password">
 
-                <button type="submit" class="register-button">Create Account</button>
+                <button type="submit" class="register-button">Create Account</button> 
+                <p class="signup-text">Sudah punya akun? <a href="{{ route('login') }}" class="auth-button">Login</a></p>
             </form>
         </div>
     </div>

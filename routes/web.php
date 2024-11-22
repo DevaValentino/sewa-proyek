@@ -15,13 +15,9 @@ use App\Http\Controllers\DaftarController;
 |
 */
 Route::get('/login', [App\Http\Controllers\LoginController::class,'login'])->name('login');
-Route::get('/beranda', [App\Http\Controllers\BerandaController::class,
-'beranda']);
-Route::get('/pesan', [App\Http\Controllers\PesanController::class,
-'index']);
-Route::get('/daftar', [App\Http\Controllers\DaftarController::class,
-'daftar'])->name('daftar');
-Route::get('/paket', [App\Http\Controllers\paketController::class,
-'index']);
-Route::get('/tampilan', [App\Http\Controllers\TampilanController::class,
-'tampilan']);
+Route::get('/beranda', [App\Http\Controllers\BerandaController::class,'beranda'])->name('beranda');
+Route::get('/pesan', [App\Http\Controllers\PesanController::class,'pesan'])->name('pesan');
+Route::get('/daftar', [App\Http\Controllers\DaftarController::class,'daftar'])->name('daftar');
+Route::get('/paket', [App\Http\Controllers\paketController::class,'paket'])->name('paket');
+Route::get('/tampilan', [App\Http\Controllers\TampilanController::class,'tampilan'])->name('tampilan');
+Route::get('/alya', [App\Http\Controllers\AlyaController::class,'alya'])->name('alya');

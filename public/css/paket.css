@@ -1,0 +1,77 @@
+/* style.css */
+
+/* Reset dasar */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+/* Header */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4285f4;
+    padding: 10px 20px;
+    color: white;
+}
+
+.header-container .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-container .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.header-container nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.header-container .profile-icon img {
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Content */
+.destination {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.destination-card {
+    background: white;
+    width: 80%;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.destination-card img {
+    width: 100%;
+    height: auto;
+}
+
+.destination-card h2 {
+    background-color: #4285f4;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+.destination-card p {
+    padding: 15px;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 14px;
+}

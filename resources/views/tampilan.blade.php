@@ -31,7 +31,7 @@
             <h3>AYLA</h3>
             <p>KAPASITAS: 4</p>
             <p>SEWA 24 JAM: Rp. 300.000</p>
-            <button>PESAN</button>
+            <button onclick="location.href='alya'">PESAN</button>
         </div>
         <div class="car-card">
             <img src="images/innova.png" alt="Innova Reborn Matic">

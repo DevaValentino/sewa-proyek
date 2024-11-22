@@ -3,7 +3,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 class PaketController extends Controller
 {
- public function index()
+ public function paket()
  {
  return view('paket');
  }

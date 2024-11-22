@@ -25,8 +25,7 @@
                     <a href="#">Lupa kata sandi?</a>
                 </div>
 
-                <button type="submit" class="login-button">Login</button>
-
+                <button type="submit" class="login-button" >Login</button>
                 <p class="or">Atau lanjutkan dengan</p>
 
                 <div class="google-login">
