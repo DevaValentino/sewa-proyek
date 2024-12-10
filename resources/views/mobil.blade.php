@@ -75,14 +75,14 @@
         
         <!-- Gambar Mobil -->
         <div class="car-image">
-            <img src="images/ayla.png" alt="alya">
+            <img src="images/mobilio.png" alt="mobil">
         </div>
 
         <!-- Formulir Pemesanan -->
         <form action="submit-order.php" method="POST">
             <div class="form-group">
                 <label for="car-name">Mobil yang Dipesan:</label>
-                <input type="text" id="car-name" name="car_name" value="AYLA" readonly>
+                <input type="text" id="car-name" name="car_name" value="MOBILIO" readonly>
             </div>
             <div class="form-group">
                 <label for="name">Nama Lengkap:</label>

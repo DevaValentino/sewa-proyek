@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ asset('css/tampilan.css') }}">
     <title>Formulir Pemesanan</title>
     <style>
         body {
@@ -74,14 +75,14 @@
         
         <!-- Gambar Mobil -->
         <div class="car-image">
-            <img src="images/alya.png" alt="alya">
+            <img src="images/xpander.png" alt="xpander">
         </div>
 
         <!-- Formulir Pemesanan -->
         <form action="submit-order.php" method="POST">
             <div class="form-group">
                 <label for="car-name">Mobil yang Dipesan:</label>
-                <input type="text" id="car-name" name="car_name" value="alya" readonly>
+                <input type="text" id="car-name" name="car_name" value="XPANDER" readonly>
             </div>
             <div class="form-group">
                 <label for="name">Nama Lengkap:</label>

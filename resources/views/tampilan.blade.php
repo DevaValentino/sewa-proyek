@@ -38,35 +38,35 @@
             <h3>INNOVA REBORN MATIC</h3>
             <p>KAPASITAS: 7</p>
             <p>SEWA 24 JAM: Rp. 750.000</p>
-            <button>PESAN</button>
+            <button onclick="location.href='inova'">PESAN</button>
         </div>
         <div class="car-card">
             <img src="images/luxio.png" alt="Luxio">
             <h3>LUXIO</h3>
             <p>KAPASITAS: 8</p>
             <p>SEWA 24 JAM: Rp. 350.000</p>
-            <button>PESAN</button>
+            <button onclick="location.href='lu'">PESAN</button>
         </div>
         <div class="car-card">
             <img src="images/granmax.png" alt="Gran Max">
             <h3>GRAN MAX (PICK UP)</h3>
             <p>KAPASITAS: 2</p>
             <p>SEWA 24 JAM: Rp. 250.000</p>
-            <button>PESAN</button>
+            <button onclick="location.href='gm'">PESAN</button>
         </div>
         <div class="car-card">
             <img src="images/mobilio.png" alt="Mobilio">
             <h3>MOBILIO</h3>
             <p>KAPASITAS: 7</p>
             <p>SEWA 24 JAM: Rp. 400.000</p>
-            <button>PESAN</button>
+            <button onclick="location.href='mobil'">PESAN</button>
         </div>
         <div class="car-card">
             <img src="images/xpander.png" alt="Xpander">
             <h3>XPANDER 2021</h3>
             <p>KAPASITAS: 7</p>
             <p>SEWA 24 JAM: Rp. 500.000</p>
-            <button>PESAN</button>
+            <button onclick="location.href='xpander'">PESAN</button>
         </div>
     </div>
 </body>
