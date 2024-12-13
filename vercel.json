@@ -11,8 +11,8 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://yourproductionurl.com",
-
+        "APP_URL": "https://sewa-proyek.vercel.app/",
+"APP_KEY":"base64:SndXHK6PvYNTOe1laBUcvvn2zGb2/G4c823gUZhEaU8=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
