@@ -27,3 +27,5 @@ Route::get('/lu', [App\Http\Controllers\LuController::class,'lu'])->name('lu');
 Route::get('/gm', [App\Http\Controllers\GmController::class,'gm'])->name('gm');
 Route::get('/mobil', [App\Http\Controllers\MobilController::class,'mobil'])->name('mobil');
 Route::get('/xpander', [App\Http\Controllers\XpanderController::class,'xpander'])->name('xpander');
+
+Route::get('/dashboard', [App\Http\Controllers\DashboardController::class,'dashboard'])->name('dashboard');
