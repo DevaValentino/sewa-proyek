@@ -12,15 +12,15 @@
         <aside class="sidebar">
             <h1 class="brand">ADD RENT CAR</h1>
             <nav class="menu">
-                <a href="#" class="menu-item">
+                <a href="/dashboard" class="menu-item">
                     <img src="images/dashboard.jpg" alt="Dashboard Icon">
                     Dashboard
                 </a>
-                <a href="#" class="menu-item">
+                <a href="/datamobil" class="menu-item">
                     <img src="images/mobil.png" alt="Data Mobil Icon">
                     Data Mobil
                 </a>
-                <a href="#" class="menu-item">
+                <a href="/customer" class="menu-item">
                     <img src="images/Customer.png" alt="Data Customer Icon">
                     Data Customer
                 </a>
@@ -47,12 +47,16 @@
             </header>
             <section class="cards">
                 <div class="card">
-                    <img src="images/mobil.png" alt="Mobil">
+                <a href="/datamobil">    
+                <img src="images/mobil.png" alt="Mobil">
                     <h3>Mobil</h3>
+                </a>
                 </div>
                 <div class="card">
-                    <img src="images/Customer.png" alt="Customers">
+                    <a href="/customer">
+                    <img src="images/Customer.png" alt="Customers" >
                     <h3>Customers</h3>
+                    </a>
                 </div>
                 <div class="card">
                     <img src="images/laporan.jpg" alt="Laporan">

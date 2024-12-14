@@ -29,3 +29,5 @@ Route::get('/mobil', [App\Http\Controllers\MobilController::class,'mobil'])->nam
 Route::get('/xpander', [App\Http\Controllers\XpanderController::class,'xpander'])->name('xpander');
 
 Route::get('/dashboard', [App\Http\Controllers\DashboardController::class,'dashboard'])->name('dashboard');
+Route::get('/customer', [App\Http\Controllers\CustomerController::class,'customer'])->name('customer');
+Route::get('/datamobil', [App\Http\Controllers\DatamobilController::class,'datamobil'])->name('datamobil');
